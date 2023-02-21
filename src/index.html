@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This project present a real-world dictionary web app.">
+  <meta name="Author" content="Hemerson Foreste">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/6d976834ad.js" crossorigin="anonymous"></script>
   <title>Dictionary web app</title>
 </head>
 <body>
   <header>
-    <div class="logo"></div>
+    <div class="logo"><i class="fa-solid fa-book"></i></div>
     <div class="font-family_toogle">
       <div class="font-family-container">
         <select name="font-family" id="font-family">
@@ -17,7 +21,12 @@
           <option value="monospace">Monospace</option>
         </select>
       </div>
-      <div class="toogle"><img src="images/moon.png" alt="moon" id="icon" width="30"></div>
+      <div class="vertical-line"></div>
+      <div class="toogle">
+        <i class="fa-solid fa-sun"></i>
+        <input type="checkbox" id="switch"><label for="switch">toggle</label>
+        <i class="fa-regular fa-moon"></i>
+      </div>
     </div>
   </header>
   <main class="main">
